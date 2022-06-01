@@ -1,0 +1,42 @@
+<div class="header_section haeder_main">
+    <div class="container-fluid">
+      <nav class="navbar navbar-light bg-light justify-content-between">
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="index.html">Home</a>
+          <a href="computers.html">Computers</a>
+          <a href="mans_clothes.html">Mans Clothes</a>
+          <a href="womans_clothes.html">Womans Clothes</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <span style="font-size:30px;cursor:pointer; color: #fff;" onclick="openNav()"><img
+            src="https://cdn.shopify.com/s/files/1/0620/9742/4575/files/toggle-icon.png?v=1654065537"></span>
+        <a class="navbar-brand" href="index.html"><img
+            src="{{ {{ section.settings.logo | img_url: 'medium' | loading: 'lazy'}} }}"></a></a>
+        <form class="form-inline ">
+          <div class="login_text">
+            <ul>
+              <li><a href="#"><img
+                    src="https://cdn.shopify.com/s/files/1/0620/9742/4575/files/user-icon.png?v=1654065540"></a></li>
+              <li><a href="#"><img
+                    src="https://cdn.shopify.com/s/files/1/0620/9742/4575/files/trolly-icon.png?v=1654065537"></a></li>
+              <li><a href="#"><img
+                    src="https://cdn.shopify.com/s/files/1/0620/9742/4575/files/search-icon.png?v=1654065537"></a></li>
+            </ul>
+          </div>
+        </form>
+      </nav>
+    </div>
+  </div>
+{% schema %}
+
+    "name": "Header customization"
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "logo",
+            "label": "Logo"
+        },
+    ]
+
+{% endschema %}
