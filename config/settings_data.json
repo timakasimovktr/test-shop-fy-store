@@ -14,7 +14,8 @@
             "type": "slide",
             "settings": {
               "left_image": "shopify:\/\/shop_images\/img-1.png",
-              "slide_text": "Slider text"
+              "slide_text": "Slider text",
+              "right_image": "shopify:\/\/shop_images\/img-2.png"
             }
           }
         },
