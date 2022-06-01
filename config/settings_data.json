@@ -6,6 +6,24 @@
         "settings": {
           "header_logo": "shopify:\/\/shop_images\/logo_f62a7316-3fd7-40c7-8198-1b25e2cf681d.png"
         }
+      },
+      "mainslider": {
+        "type": "mainslider",
+        "blocks": {
+          "1877dac5-d4a9-41dc-a16c-9d43edb274da": {
+            "type": "slide",
+            "settings": {
+              "left_image": "shopify:\/\/shop_images\/img-1.png",
+              "slide_text": "Slider text"
+            }
+          }
+        },
+        "block_order": [
+          "1877dac5-d4a9-41dc-a16c-9d43edb274da"
+        ],
+        "settings": {
+          "slider": ""
+        }
       }
     },
     "content_for_index": [
