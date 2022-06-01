@@ -11,7 +11,7 @@
         </div>
         <span style="font-size:30px;cursor:pointer; color: #fff;" onclick="openNav()"><img
             src="https://cdn.shopify.com/s/files/1/0620/9742/4575/files/toggle-icon.png?v=1654065537"></span>
-        <a class="navbar-brand" href="index.html"><img src="{{ section.settings.header_logo | img_url: '100x50' | loading: 'lazy' }}"/></a>
+        <a class="navbar-brand" href="index.html"><img src="{{ section.settings.header_logo | loading: 'lazy' }}"/></a>
         <form class="form-inline ">
           <div class="login_text">
             <ul>
@@ -27,6 +27,25 @@
       </nav>
     </div>
   </div>
+
+<style>
+    {% if section.settings.imagesize == "70" %}
+  .left_block img {
+      width: 70%;
+      height: 70%;
+    }
+{%- elsif section.settings.imagesize == "60" -%}
+  .left_block img {
+      width: 60%;
+      height: 60%;
+    }
+{%- else -%}
+  .left_block img {
+      width: 50%;
+      height: 50%;
+    }
+{% endif %}
+</style>
 
 {% schema %}
   {
