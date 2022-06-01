@@ -40,12 +40,11 @@
 
 <script>
     const wrapObj = document.querySelector('.carousel-inner');
-        wrapObj.onclick=function(e){
             for(let i = 0;i<wrapObj.children.length;i++){
                 wrapObj.children[i].classList.remove('active');
             }
             e.target.classList.add('active');
-        }
+        
 </script>
 
 {% schema %}
