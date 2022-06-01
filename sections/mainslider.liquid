@@ -5,8 +5,8 @@
 
 
             {% for block in section.blocks %}
-            
-            <div class="carousel-ite ">
+
+            <div class="carousel-ite {% if forloop.index == 0 %} active {% endif %}">
                 <div class="container">
                     <div class="row border_1">
                         <div class="col-md-4">
