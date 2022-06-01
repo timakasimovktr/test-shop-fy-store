@@ -28,25 +28,6 @@
     </div>
   </div>
 
-<style>
-    {% if section.settings.imagesize == "70" %}
-  .left_block img {
-      width: 70%;
-      height: 70%;
-    }
-{%- elsif section.settings.imagesize == "60" -%}
-  .left_block img {
-      width: 60%;
-      height: 60%;
-    }
-{%- else -%}
-  .left_block img {
-      width: 50%;
-      height: 50%;
-    }
-{% endif %}
-</style>
-
 {% schema %}
   {
     "name": "Header customization",
