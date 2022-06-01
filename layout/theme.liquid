@@ -48,7 +48,9 @@
 </head>
 
 <body>
-  {{ section "header" }}
+  <main role="main">
+    {{ content_for_layout }}
+  </main>
   <!-- header section end -->
   <!-- banner section start -->
   <div class="banner_section layout_padding">
@@ -370,9 +372,7 @@
     {% endif %}
   {% endif %} -->
 
-  <main role="main">
-    {{ content_for_layout }}
-  </main>
+  
 </body>
 
 </html>
