@@ -331,7 +331,7 @@ button {
     float: left;
     position: relative;
     z-index: 2;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
 }
 .border_1 {
     border: 2px solid #627b8a;
