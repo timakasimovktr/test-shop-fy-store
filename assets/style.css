@@ -364,7 +364,7 @@ button {
 .banner-text{
     position: absolute;
     z-index: 20;
-    top: auto;
+    top: 200;
     left: auto;
 }
 
