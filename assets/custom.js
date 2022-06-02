@@ -73,7 +73,8 @@ $(function () {
 		margin: 10,
 		autoplay: true,
 		autoplayTimeout: 3000,
-		autoplayHoverPause: true
+		autoplayHoverPause: true,
+		lazyLoad
 	  });	  
 	});
 	
