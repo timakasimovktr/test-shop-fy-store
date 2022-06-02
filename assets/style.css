@@ -381,7 +381,11 @@ button {
     flex-direction: column;
 }
 
-.slider_buttons
+.slider_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .banner_taital {
     width: 100%;
