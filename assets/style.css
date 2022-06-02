@@ -349,7 +349,7 @@ button {
     align-items: center;
     width: 100%;
     margin-bottom: 50px;
-    max-height: 627px;
+    height: 627px;
 }
 
 .banner_img img{
