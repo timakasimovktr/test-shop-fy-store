@@ -360,6 +360,12 @@ button {
     padding-top: 160px;
     position: relative;
 } */
+
+.banner-text{
+    position: absolute;
+    z-index: 20;
+}
+
 .banner_taital {
     width: 100%;
     margin: 0 auto;
