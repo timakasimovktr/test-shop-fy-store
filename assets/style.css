@@ -364,6 +364,8 @@ button {
 .banner-text{
     position: absolute;
     z-index: 20;
+    top: auto;
+    
 }
 
 .banner_taital {
