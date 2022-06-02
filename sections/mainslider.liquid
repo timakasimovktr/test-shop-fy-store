@@ -1,38 +1,34 @@
 <!-- banner section start -->
-<div class="banner_section layout_padding">
-    <div id="my_slider" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
 
+<section class="slider">
+  <div class="container-fluid">
+      <div class="swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+              <!-- Slides -->
+              {% for block in section.blocks %}
+              <div class="swiper-slide">
+                  <div class="slide-img"><img class="header-slider-image" src="{{ block.settings.left_image | image_url: width: '1000' }}" alt="">
+                  </div>
+                  <div class="slide-text">
+                      <h4>{{ block.settings.slide_text }}</h4>
+                      <p><br>
+                      </p>
+                      <a href="#">Подробнее</a>
+                  </div>
+              </div>
+              {% endfor %}
 
-            {% for block in section.blocks %}
+          </div>
 
-            <div class="carousel-item {% if forloop.first %} active {% endif %}">
-                <div class="container">
-                    <div class="row border_1">
-                        <div class="banner_img">
-                            <div class="image_1"><img src="{{ block.settings.left_image | image_url: width: '1000' }}" style="width:100%"></div>
-                        </div>
-                        <div class="col-md-4 banner-text">
-                            <h1 class="banner_taital">{{ block.settings.slide_text }}</h1>
-                            <div class="buynow_bt active"><a href="#">Buy Now</a></div>
-                            <div class="contact_bt"><a href="contact.html">Contact Us</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          <!-- If we need navigation buttons -->
+      </div>
+      <div class="swiper-button-prev"><img src="" alt=""></div>
+      <div class="swiper-button-next"><img src="" alt=""></div>
+      
+  </div>
+</section>
 
-            {% endfor %}
-
-            
-        </div>
-        <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="prev">
-            <i class="fa fa-angle-left"></i>
-        </a>
-        <a class="carousel-control-next" href="#my_slider" role="button" data-slide="next">
-            <i class="fa fa-angle-right"></i>
-        </a>
-    </div>
-</div>
 <!-- banner section end -->
 
 {% schema %}
