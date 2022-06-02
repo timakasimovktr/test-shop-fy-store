@@ -273,17 +273,9 @@ button {
 }
 .sidenav {
         z-index: 99999999999999;
-        background-color: rgb(0, 0, 0, 0.9);
+        background-color: rgba(85, 85, 85, 0.9);
     }
-@media screen and (max-width: 450px) {
-    .sidenav {
-        padding-top: 15px;
-        /* background-color: rgb(0, 0, 0, 0.9); */
-    }
-    .sidenav a {
-        font-size: 18px;
-    }
-}
+
 
 .login_text{
     width: 100%;
