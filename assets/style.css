@@ -343,7 +343,7 @@ button {
 .image_1 {
     width: 100%;
     position: absolute;
-    top: -60px;
+    /* top: -60px; */
     z-index: -1;
 }
 
