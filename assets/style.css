@@ -375,6 +375,10 @@ button {
 .banner-text{
     position: absolute;
     z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .banner_taital {
