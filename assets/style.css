@@ -338,6 +338,9 @@ button {
     position: relative;
     /* height: 627px; */
     /* margin-top: 59px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner_img{
