@@ -15,14 +15,13 @@
             "type": "slide",
             "settings": {
               "left_image": "shopify:\/\/shop_images\/head-img.png",
-              "slide_text": "Slider text",
-              "right_image": "shopify:\/\/shop_images\/img-2.png"
+              "slide_text": "Slider text"
             }
           },
           "f6a2de34-5b10-47b5-9a93-fab4024b4273": {
             "type": "slide",
-            "disabled": true,
             "settings": {
+              "left_image": "shopify:\/\/shop_images\/banner-bg.jpg",
               "slide_text": "2 Slider text",
               "right_image": "shopify:\/\/shop_images\/img-1.png"
             }
