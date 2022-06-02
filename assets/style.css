@@ -278,7 +278,7 @@ button {
 @media screen and (max-width: 450px) {
     .sidenav {
         padding-top: 15px;
-        background-color: rgb(0, 0, 0, 0.9);
+        /* background-color: rgb(0, 0, 0, 0.9); */
     }
     .sidenav a {
         font-size: 18px;
@@ -385,7 +385,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .banner_taital {
