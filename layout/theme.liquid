@@ -31,14 +31,9 @@
   {{ 'jquery.mCustomScrollbar.concat.min.js' | asset_url | script_tag }}
   {{ 'custom.js' | asset_url | script_tag }}
   {{ 'owl.carousel.js' | asset_url | script_tag }}
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script defer src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-  <script defer src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+  <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+  <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
   <script>
-    import Swiper from 'swiper';
-    import 'swiper/css';
 
     function openNav() {
       document.getElementById("mySidenav").style.width = "100%";
@@ -47,32 +42,6 @@
     function closeNav() {
       document.getElementById("mySidenav").style.width = "0";
     }
-
-    const swiper = new Swiper('.swiper-container', {
-      // Optional parameters
-      // cssMode: true,
-      spaceBetween: 100,
-      loop: true,
-      speed: 1000,
-      effect: 'fade',
-      autoplay: {
-        delay: 4000,
-        disableOnInteraction: false,
-      },
-
-      // If we need pagination
-
-      // Navigation arrows
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-
-      // And if we need scrollbar
-      scrollbar: {
-        el: '.swiper-scrollbar',
-      },
-    });
   </script>
 
 
@@ -83,7 +52,7 @@
     {{ content_for_layout }}
   </main>
   <!-- header section end -->
-
+  
   <!-- catagary section start -->
   <div class="catagary_section layout_padding">
     <div class="container">
@@ -339,7 +308,7 @@
     {% endif %}
   {% endif %} -->
 
-
+  
 </body>
 
 </html>
