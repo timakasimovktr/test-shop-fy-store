@@ -351,6 +351,10 @@ button {
     margin-bottom: 50px;
 }
 
+.banner_img img{
+    height: 627px;
+}
+
 .image_1 {
     width: 100%;
     /* position: absolute; */
