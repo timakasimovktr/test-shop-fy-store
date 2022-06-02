@@ -341,6 +341,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .banner_img{
@@ -348,7 +349,6 @@ button {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-bottom: 50px;
     height: 627px;
 }
 
@@ -381,7 +381,7 @@ button {
     color: #ffffff;
     text-align: center;
     /* padding-top: 150px; */
-    
+
 }
 
 .buynow_bt{
