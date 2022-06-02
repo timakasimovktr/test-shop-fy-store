@@ -341,7 +341,10 @@ button {
 }
 
 .banner_img{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .image_1 {
