@@ -8,7 +8,7 @@
                 <div class="catagary_menu">
                     <ul>
                         {% for product_type in collections %}
-                            <li><a href="">{{ product_type.title }}</a></li>
+                            <li><a href="{{ product_type.url }}">{{ product_type.title }}</a></li>
                         {% endfor %}
                     </ul>
                 </div>
