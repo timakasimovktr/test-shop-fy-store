@@ -1,7 +1,7 @@
 <div class="catagary_section_2">
     <div class="container-fluid">
         <div class="row">
-            {% for product in collections.frontpage.products limit:3 %}
+            {% for product in collections['all'].products %}
             <div class="col-md-4">
                 <div class="box_man">
                     <h3 class="mobile_text">{{ product.title }}</h3>
@@ -15,8 +15,8 @@
                 </div>
             </div>
             {% endfor %}
-            
-            {% for product in collections['all'].products %}
+
+            {% for product in collections.frontpage.products limit:4 %}
             <div>
                 <a href="{{ product.url | within: collection }}">{{ product.title }}</a>
                 {{ product.price | money }}
