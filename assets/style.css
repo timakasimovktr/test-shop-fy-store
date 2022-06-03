@@ -499,6 +499,9 @@ button {
 .catagary_menu{
     width: 100%;
     float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .catagary_menu ul{
     margin: 0px;
