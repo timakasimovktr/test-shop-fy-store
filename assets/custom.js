@@ -78,7 +78,7 @@ $(function () {
 		autoplayHoverPause: true,
 		lazyLoad: true,
 		mouseDrag: true,
-        touchDrag: true,
+        touchDrag: true
 	  });	  
 	});
 	
