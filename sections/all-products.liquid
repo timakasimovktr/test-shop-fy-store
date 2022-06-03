@@ -2,6 +2,7 @@
     <div class="container-fluid">
         <div class="row">
             {% for product in collections['all'].products %}
+            {% for product in collections.frontpage.products limit:3 %}
             <div class="col-md-4">
                 <div class="box_man">
                     <h3 class="mobile_text">{{ product.title }}</h3>
@@ -16,14 +17,12 @@
             </div>
             {% endfor %}
 
-            {% for product in collections.frontpage.products limit:4 %}
             <div>
                 <a href="{{ product.url | within: collection }}">{{ product.title }}</a>
                 {{ product.price | money }}
                 {% unless product.available %}<br><strong>sold out</strong>{% endunless %}
                 <a href="{{ product.url | within: collection }}">
-                    <img src="{{ product.featured_image.src | img_url: 'large' }}"
-                        alt="{{ product.featured_image.alt | escape }}">
+                    <img src="{{ product.featured_image.src | img_url: 'large' }}" alt="{{ product.featured_image.alt | escape }}">
                 </a>
             </div>
             {% endfor %}
