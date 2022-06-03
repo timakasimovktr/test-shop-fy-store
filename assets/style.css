@@ -486,6 +486,7 @@ button {
     float: left;
 }
 .catagary_right{
+    margin-top: 2px;
     width: 80%;
     float: left;
 }
