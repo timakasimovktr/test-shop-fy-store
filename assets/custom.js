@@ -76,8 +76,8 @@ $(function () {
 		autoplay: true,
 		autoplayTimeout: 3000,
 		autoplayHoverPause: true,
-		lazyLoad: true,
-		onDragged: callback
+		lazyLoad: true
+		
 	  });	  
 	});
 	
