@@ -1,11 +1,11 @@
 <div class="catagary_section_2">
     <div class="container-fluid">
         <div class="row">
-            {% for product_type in collections['all'].products %}
+            {% for product in collections['all'].products %}
             <div class="col-md-4">
                 <div class="box_man">
-                    <h3 class="mobile_text">{{ product_type.title }}</h3>
-                    <div class="mobile_img"><img src="{{ product_type.img_url }}"></div>
+                    <h3 class="mobile_text">{{ product.title }}</h3>
+                    <div class="mobile_img"><img src="{{ product.img_url }}"></div>
                     <div class="cart_main">
                         <div class="cart_bt"><a href="#">Add To Cart</a></div>
                         <h4 class="samsung_text">Samsung</h4>
