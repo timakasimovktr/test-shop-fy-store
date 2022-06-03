@@ -7,6 +7,9 @@
             <div class="catagary_right">
                 <div class="catagary_menu">
                     <ul>
+                        {% for product_type in collection.all_types %}
+                            {{ product_type | link_to_type }}
+                        {% endfor %}
                         <li><a href="#">Man's Fashion</a></li>
                     </ul>
                 </div>
@@ -14,4 +17,3 @@
         </div>
     </div>
 </div>
-
