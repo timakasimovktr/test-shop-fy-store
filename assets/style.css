@@ -477,6 +477,9 @@ button {
 .catagary_main{
     width: 100%;
     float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .catagary_left{
     width: 20%;
