@@ -8,9 +8,8 @@
                 <div class="catagary_menu">
                     <ul>
                         {% for product_type in collection.all_types %}
-                            
+                            <li>{{ product_type | link_to_type }}</li>
                         {% endfor %}
-                        <li>{{ product_type | link_to_type }}</li>
                     </ul>
                 </div>
             </div>
